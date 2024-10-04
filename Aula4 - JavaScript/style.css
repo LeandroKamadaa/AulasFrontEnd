@@ -1,0 +1,39 @@
+/* * representa tudo */
+*{
+    margin: 0
+}
+
+body {
+    background-color: rgb(255, 221, 205);
+}
+
+p{
+    color: brown;
+}
+
+#ultimo {
+    color: rgb(255, 103, 103);
+    font-size: larger;
+}
+
+.paragrafo{
+    font-size: medium;
+}
+
+.titulo:hover {
+    background-color: rgb(255, 84, 84);
+}
+
+.section {
+    background-color: rgb(255, 171, 141);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.section > p{
+    color: greenyellow;
+}
+
+p::before {
+    content: "• ";
+} 
